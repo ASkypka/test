@@ -1,0 +1,46 @@
+.benefit {
+    background-color: #1e1823;
+    padding: 50px 0;
+}
+.conteiner {
+    width: 1200px;
+    padding: 0 50px;
+    margin: 0 auto;
+}
+.benefit-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 88px;
+}
+.benefit-item {
+    width: calc((100% - 88px * 2) / 3);
+}
+.benefit-link {
+    width: 62px;
+    height: 62px;
+    border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 22px;
+}
+.benefit-title {
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+font-weight: 600;
+font-size: 18px;
+color: #fff;
+margin-bottom: 18px;
+}
+.benefit-text {
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.28571;
+letter-spacing: -0.02em;
+color: rgba(255, 255, 255, 0.7);
+}
